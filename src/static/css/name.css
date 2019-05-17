@@ -1,0 +1,14 @@
+.name-input h1 {
+    font-size: 4rem !important;
+}
+
+.name-input form input {
+    font-size: 3rem !important;
+    /*font-family: x, sans-serif;*/
+    text-align: center;
+}
+
+.name-input form input:focus {
+    font-family: x, sans-serif;
+    background-image: url('/api/name?status=begin');
+}

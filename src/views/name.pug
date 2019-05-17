@@ -1,0 +1,14 @@
+extends base
+block title
+    title Name
+block styles
+    link(rel="stylesheet" type="text/css" href="/css/name.css")
+    link(rel="stylesheet" type="text/css" href="/css/name/fonts.css")
+block page
+    .splash.name-input
+        h1 Your Name:
+        form.pure-form
+            fieldset
+                input(type="text")
+        p
+            a.pure-button.pure-button-primary(href="/api/name?status=done") Save

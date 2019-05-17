@@ -1,0 +1,14 @@
+extends base
+block title
+    title Chat
+block styles
+    link(rel="stylesheet" type="text/css" href="/css/chat.css")
+    link(rel="stylesheet" type="text/css" href="/css/msg/fonts.css")
+block page
+    iframe(src="http://localhost:8000/chatbox#bottom" class="chatbox")
+    .chat-input
+        form.pure-form
+            fieldset
+                input.chat(type="text")
+                .spacer
+                a.pure-button.pure-button-primary(href="/api/msg?status=done") Send

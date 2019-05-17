@@ -1,0 +1,17 @@
+version: '3.7'
+# TODO: add a reverse proxy for auth with SSL
+# TODO: add SSL to production environment
+
+services:
+  production:
+    build:
+      context: ./
+      dockerfile: .docker/development/Dockerfile
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - /app/node_modules

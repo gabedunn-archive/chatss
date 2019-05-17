@@ -1,0 +1,14 @@
+extends base
+block title
+    title Chatbox
+block styles
+    link(rel="stylesheet" type="text/css" href="/css/chat.css")
+    meta(http-equiv="Refresh" content="5; url=/chatbox#bottom")
+block page
+    .pure-g
+        .pure-u-2-24
+        .messages.pure-u-20-24
+            each message in messages
+                p= `${message.name}: ${message.msg}`
+            #bottom
+        .pure-u-2-24

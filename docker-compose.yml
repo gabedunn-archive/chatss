@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  development:
+    build:
+      context: ./
+      dockerfile: .docker/development/Dockerfile
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app:consistent
+      - /app/node_modules

